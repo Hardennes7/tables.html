@@ -1,0 +1,96 @@
+.gender-box {
+    border: 1px solid black;
+    padding: 20px;
+    width: 900px;
+    margin: 20px;
+    text-align: center;
+    position: relative;
+}
+
+* .gender-box::before {
+    content: "Gender";
+    position: absolute;
+    top: -10px;
+    left: 10%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 0 5px; */
+}
+
+/* Styling the radio buttons */
+.radio-group {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 10px;
+}
+
+.names 
+{
+    border: 1px solid black;
+    Padding: 20px;
+    width: 900px;
+    margin: 20px;
+    text-align: center;
+    position: relative;
+    
+}
+.names::before {
+    content: "Names";
+    position: absolute;
+    top: -10px;
+    left: 10%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 0 5px; */
+}
+
+.contacts{
+    border: 1px solid black;
+    Padding: 20px;
+    width: 900px;
+    margin: 20px;
+    text-align: center;
+    position: relative;
+    
+}
+.contacts::before {
+    content: "conctact Details";
+    position: absolute;
+    top: -10px;
+    left: 10%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 0 5px; */
+
+}
+.button
+
+
+
+/* Styling the form container */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+
+
+
+/* Add space between the labels and inputs */
+label {
+    font-weight: bold;
+}
+
+/* Styling for the button container (aligning buttons in one line) */
+.button-box {
+
+
+
+    
