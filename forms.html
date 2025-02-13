@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel ="stylesheet" href="syle.css"
+</head>
+<body>
+    <form>
+        <div class= "names">
+    
+       <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" value="">
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" value="">
+
+       </div>
+
+        <div class="gender-box">
+            <div class="radio-group">
+                <label>
+                    <input type="radio" name="gender" value="male"> Male
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="female"> Female
+                </label>
+            </div>
+             
+            
+              
+        </div>
+        <!-- <P class ="info-paragraph"> Contact Details:</P>
+         -->
+        <div class="contacts"
+        <label for="fname">Email Address:</label>
+  <input type="text" id="fname" name="fname" value="">
+  <label for="lname">Phone Number:</label>
+  <input type="text" id="lname" name="lname" value="">
+        
+    </div>
+            <form>
+                
+                <!-- <label for="password">Password:</label> -->
+                <div class="password-container">
+                    <label for="fname">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password">
+                    <button type="button" id="togglePassword" onclick="togglePassword()">👁️</button>
+                </div>
+                
+                
+                <div class="button-box">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </div>
+    
+        <script>
+            // Function to toggle the password visibility
+            function togglePassword() {
+                const passwordField = document.getElementById('password');
+                const toggleButton = document.getElementById('togglePassword');
+                
+                if (passwordField.type === 'password') {
+                    passwordField.type = 'text'; // Change type to text to reveal password
+                    toggleButton.textContent = '🙈'; // Change the icon to a "hide" icon
+                } else {
+                    passwordField.type = 'password'; // Change type back to password
+                    toggleButton.textContent = '👁️'; // Change the icon to the "show" icon
+                }
+            }
+        </script>
+   
+      
+</body>
+</html>
