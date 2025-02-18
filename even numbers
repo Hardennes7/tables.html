@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even Numbers Less Than 20</title>
+</head>
+<body>
+
+    <h2>Even Numbers Less Than 20:</h2>
+
+    <div id="output"></div>
+
+    <script>
+        let evenNumbers = [];
+        let sum = 0;
+        let num = 2; // Start from 2, the first even number
+
+        // Use while loop to get even numbers less than 20
+        while (num < 20) {
+            evenNumbers.push(num); // Store the even number in the array
+            sum += num;            // Add the number to the sum
+            num += 2;              // Increment by 2 to get the next even number
+        }
+
+        // Display even numbers in a single line
+        document.getElementById('output').innerHTML = evenNumbers.join(", ");
+
+        // Display a horizontal line
+        document.body.innerHTML += "<hr>";
+
+        // Display the sum of the even numbers
+        document.body.innerHTML += "<p>The sum of the even numbers less than 20 is: " + sum + "</p>";
+    </script>
+
+</body>
+</html>
